@@ -1,0 +1,146 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+    width: 1440px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#head_right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+
+#head_left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#next_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#banner {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+#text_1 {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+#text_2 {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    text-align: left;
+}
+
+#button_1 {
+    position: absolute;
+    top: 55%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+}
+
+#button_one {
+    height: 50px;
+    width: 180px;
+    background-color: #469d7a;
+    border: 2px solid #469d7a;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+#button_top_1 {
+    height: 35px;
+    width: 150px;
+    background-color: #469d7a;
+    border: 2px solid #469d7a;
+    padding: 14px 28px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+#button_top_2 {
+    height: 35px;
+    width: 150px;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 14px 28px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: 469d7a;
+}
+
+#top_text {
+    text-align: center;
+    font-size: 40px;
+}
+
+#top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn-warning_sales {
+    position: absolute;
+    transform: translate(-110%, 30%);
+    color: #a9741f;
+    background-color: #fdca70;
+    border-radius: 10px;
+    border-color: #fdca70;
+}
+
+#listOfProducts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div_product {
+    margin: 10px;
+}
+
+.next_title_left {
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    padding-left: 600px;
+}
+
+.next_title_right {
+    color: #489c7a;
+    padding-left: 370px;
+}
